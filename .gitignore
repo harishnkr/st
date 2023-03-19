@@ -1,0 +1,10 @@
+config.h
+st
+/*.o
+.cache/
+compile_commands.json
+/*.diff
+/*.rej
+/*.orig
+/*.out
+patch/
