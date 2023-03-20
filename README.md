@@ -7,6 +7,7 @@ Personal fork of ST
 - Xresources customization
 - Mousewheel only scroll
 - CSI support
+- Blinking cursor
 
 ## Requirements
 In order to build st you need the Xlib header files.
