@@ -6,6 +6,7 @@ Personal fork of ST
 ## Patches applied
 - Xresources customization
 - Mousewheel only scroll
+- CSI support
 
 ## Requirements
 In order to build st you need the Xlib header files.
