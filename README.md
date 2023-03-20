@@ -8,6 +8,7 @@ Personal fork of ST
 - Mousewheel only scroll
 - Ligatures support
 - Delete key support
+- CSI support
 
 ## Requirements
 In order to build st you need the Xlib header files.
