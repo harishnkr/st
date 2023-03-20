@@ -9,6 +9,7 @@ Personal fork of ST
 - Ligatures support
 - Delete key support
 - CSI support
+- Blinking cursor
 
 ## Requirements
 In order to build st you need the Xlib header files.
