@@ -4,6 +4,7 @@ st is a simple terminal emulator for X which sucks less.
 Personal fork of ST
 
 ## Patches applied
+- Xresources customization
 
 ## Requirements
 In order to build st you need the Xlib header files.
