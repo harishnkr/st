@@ -10,7 +10,6 @@ Personal fork of ST
 - Delete key support
 - CSI support
 - Blinking cursor
-- Sixel support (experimanetal. not working atm)
 
 ## Requirements
 In order to build st you need the Xlib header files.
