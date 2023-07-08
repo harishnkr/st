@@ -10,6 +10,7 @@ Personal fork of ST
 - Delete key support
 - CSI support
 - Blinking cursor
+- Fixed glyph truncation
 
 ## Requirements
 In order to build st you need the Xlib header files.
