@@ -8,6 +8,7 @@ Personal fork of ST
 - Mousewheel only scroll
 - CSI support
 - Blinking cursor
+- Bold text is not the brighter colour variant
 
 ## Requirements
 In order to build st you need the Xlib header files.
