@@ -9,6 +9,7 @@ Personal fork of ST
 - CSI support
 - Blinking cursor
 - Bold text is not the brighter colour variant
+- Changed backspace and delete key
 
 ## Requirements
 In order to build st you need the Xlib header files.
