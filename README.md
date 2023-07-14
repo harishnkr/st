@@ -10,6 +10,7 @@ Personal fork of ST
 - Blinking cursor
 - Bold text is not the brighter colour variant
 - Changed backspace and delete key
+- Glyph wide support
 
 ## Requirements
 In order to build st you need the Xlib header files.
