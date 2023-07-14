@@ -11,6 +11,7 @@ Personal fork of ST
 - Bold text is not the brighter colour variant
 - Changed backspace and delete key
 - Glyph wide support
+- Ligature Support
 
 ## Requirements
 In order to build st you need the Xlib header files.
