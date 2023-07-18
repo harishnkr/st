@@ -12,7 +12,8 @@ Personal fork of ST
 - Changed backspace and delete key
 - Glyph wide support
 - Ligature Support
-- Undercurl patch
+- Undercurl
+- Font2 
 
 ## Requirements
 In order to build st you need the Xlib header files.
