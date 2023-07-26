@@ -15,6 +15,16 @@ Personal fork of ST
 - Undercurl
 - Font2 
 
+## TODO
+
+The following problems cannot be satisfied in the current terminal but I personally find it to be a deal breaker with respect to a terminal emulator:
+
+- Vertical glyph problems (maybe its because of not applying the boxdraw patch.)
+- Utilising 2 types of font on the same screen for different styles
+- Strikethrough support
+
+ I would love to fix these problems in the near future hence this terminal will be utilised only as a fallback tool.
+
 ## Requirements
 In order to build st you need the Xlib header files.
 
