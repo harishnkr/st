@@ -48,4 +48,9 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st
 	rm -f $(DESTDIR)$(MANPREFIX)/man1/st.1
 
+patch:
+	rm *.diff *.orig *.rej
+
 .PHONY: all clean dist install uninstall
+
+
