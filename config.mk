@@ -4,11 +4,7 @@ VERSION = 0.9
 # Customize below to fit your system
 
 # paths
-<<<<<<< HEAD
 PREFIX = /usr/local
-=======
-PREFIX = ~/.local
->>>>>>> origin/main
 MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/X11R6/include
