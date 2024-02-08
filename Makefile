@@ -52,6 +52,11 @@ uninstall:
 patch:
 	rm *.diff *.orig *.rej
 
+<<<<<<< HEAD
 .PHONY: all clean dist install uninstall
 
 
+=======
+
+.PHONY: all options clean dist install uninstall
+>>>>>>> origin/main
