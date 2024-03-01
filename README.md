@@ -15,6 +15,18 @@ Personal fork of ST
 - Undercurl
 - Font2 
 
+## Sync with mainline
+
+Do the following
+
+```
+git remote add upstream git://git.suckless.org/
+git fetch upstream
+git merge upstream/master
+
+```
+Then make own changes if necessary. Git push
+
 ## TODO
 
 The following problems cannot be satisfied in the current terminal but I personally find it to be a deal breaker with respect to a terminal emulator:
