@@ -2393,6 +2393,8 @@ tcontrolcode(uchar ascii)
 		tputtab(1);
 		return;
 	case '\b':   /* BS */
+		for (i = 1; term.c.x && TLINE(term.c.y)[term.c.x - i].u == 0; ++i)
+			;
 		tmoveto(term.c.x - i, term.c.y);
 		return;
 	case '\r':   /* CR */
