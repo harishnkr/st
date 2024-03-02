@@ -8,3 +8,6 @@ compile_commands.json
 /*.orig
 /*.out
 patch/
+README
+TODO
+st.desktop

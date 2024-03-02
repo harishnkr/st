@@ -14,6 +14,7 @@ Personal fork of ST
 - Ligature Support
 - Undercurl
 - Font2 
+- Desktop Entry 
 
 ## Sync with mainline
 
