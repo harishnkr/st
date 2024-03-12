@@ -22,7 +22,7 @@ Personal fork of ST
 Do the following
 
 ```
-git remote add upstream git://git.suckless.org/
+git remote add upstream https://git.suckless.org/st
 git fetch upstream
 git merge upstream/master
 
