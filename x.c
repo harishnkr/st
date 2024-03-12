@@ -1530,8 +1530,8 @@ xmakeglyphfontspecs(XftGlyphFontSpec *specs, const Glyph *glyphs, int len, int x
 
 					specs[numspecs].font = frc[f].font;
 					specs[numspecs].glyph = glyphidx;
-					specs[numspecs].x = (short)xp;
-					specs[numspecs].y = (short)yp;
+					specs[numspecs].x = (short)xp+cxoffset;
+					specs[numspecs].y = (short)yp+cyoffset;
 					numspecs++;
 				}
 			}

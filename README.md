@@ -15,6 +15,7 @@ Personal fork of ST
 - Undercurl
 - Font2 
 - Desktop Entry 
+- Charoffsets support patch
 
 ## Sync with mainline
 
