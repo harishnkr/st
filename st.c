@@ -1283,6 +1283,7 @@ csiparse(void)
 {
 	char *p = csiescseq.buf, *np;
 	long int v;
+	int sep = ';'; /* colon or semi-colon, but not both */
 
 	csiescseq.narg = 0;
 	if (*p == '?') {
@@ -1301,7 +1302,9 @@ csiparse(void)
 		csiescseq.arg[csiescseq.narg++] = v;
 		p = np;
 		readcolonargs(&p, csiescseq.narg-1, csiescseq.carg);
-		if (*p != ';' || csiescseq.narg == ESC_ARG_SIZ)
+		if (sep == ';' && *p == ':')
+			sep = ':'; /* allow override to colon once */
+		if (*p != sep || csiescseq.narg == ESC_ARG_SIZ)
 			break;
 		p++;
 	}
@@ -1880,7 +1883,7 @@ csihandle(void)
 			}
 			break;
 		case 1: /* above */
-			if (term.c.y > 1)
+			if (term.c.y > 0)
 				tclearregion(0, 0, term.col-1, term.c.y-1);
 			tclearregion(0, term.c.y, term.c.x, term.c.y);
 			break;
